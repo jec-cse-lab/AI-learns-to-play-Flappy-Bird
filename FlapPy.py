@@ -246,5 +246,5 @@ def run(config_path):
     print("Winner :\n{!s}",format(winner))
 if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)
-    config_path = os.path.join(local_dir,"config-feedforward.txt")
+    config_path = os.path.join(local_dir,"configfeed.txt")
     run(config_path)
